@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+
+<body>
+    <header id="cabecera">
+        <div>
+            <a href="index.html"><img src="imagenes//bmi.png" alt="imagen saludable"></a>
+            <h1>Calculadora IMC</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <form id="formulario-principal" action="calculo.php" method="POST">
+            <div id="pesa">
+                <input required autocomplete="off" type="number" min="1" max="1000" id="input-peso" name="input-peso" placeholder="Ingrese su peso(kg)">
+                <div id="huellas">
+                    <img src="imagenes/zapato-izquierdo.png" alt="">
+                    <img src="imagenes/zapato-derecho.png" alt="">
+                </div>
+            </div>
+            <div id="regla">
+                <img src="imagenes/altura.png" alt="">
+                <input  required autocomplete="off" type="number" min="1" max="1000" id="input-altura" name="input-altura" placeholder="Ingrese su altura(cm)">
+            </div>
+            <div id="contenedor-button"><button type="submit" id="calcular">Calcular IMC</button></div>
+
+        </form>  
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
